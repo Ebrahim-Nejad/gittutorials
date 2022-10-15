@@ -1,0 +1,24 @@
+create a new repository on the command line
+echo "# gittutorials" >> README.md
+git init
+git add README.md
+git status              		  # to seee the current status
+git commit -m "first commit"
+git branch  				 #to see the branch names
+git branch -M main      		 # to rename master branch to main branch
+git remote add origin https://github.com/Ebrahim-Nejad/gittutorials.git 		 #to detemnine the remote repo on git
+git push -u origin main 		  #push all commited files
+
+=========================
+
+ push an existing repository from the command line
+git remote add origin https://github.com/Ebrahim-Nejad/gittutorials.git
+git branch -M main
+git push -u origin main
+
+============================
+Solve git connection problem with proxy on Stackoverflow
+
+https://stackoverflow.com/questions/49345357/fatal-unable-to-access-https-github-com-xxx-openssl-ssl-connect-ssl-error?rq=1
+============================================
+
