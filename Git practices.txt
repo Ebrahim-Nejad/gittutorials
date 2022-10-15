@@ -24,5 +24,15 @@ https://stackoverflow.com/questions/49345357/fatal-unable-to-access-https-github
 # restore the last change in a staged file
 
 git status
-git restore Readme.txt
+git restore "Readme.txt"
+
+git restore --staged "test3.txt"      #to unstage a file
+
 =====================================================
+
+
+
+
+
+
+
