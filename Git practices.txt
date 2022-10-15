@@ -28,7 +28,14 @@ git restore "Readme.txt"
 
 git restore --staged "test3.txt"      #to unstage a file
 
+git reset "test3.txt"      #to unstage a file
+
 =====================================================
+git branch   				 #to see all of the branches
+git branch "branch-name"       	# to create a branch
+git checkout "branch-name"          # to switch to anothert branch
+git branch -d  "local_branch_name"   # to delet a local branch (you should be on another branch to delet  "local_branch_name"
+
 
 
 
